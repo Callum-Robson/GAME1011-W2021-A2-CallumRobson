@@ -141,9 +141,13 @@
     <ClInclude Include="Chest.h" />
     <ClInclude Include="Door.h" />
     <ClInclude Include="GameObject.h" />
+    <ClInclude Include="ListNode.h" />
     <ClInclude Include="ObjectTypes.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="Positions.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

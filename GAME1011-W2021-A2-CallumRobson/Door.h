@@ -7,6 +7,7 @@ public:
 	Door()
 	{
 		m_isLocked = false;
+		setObjectType(DOOR);
 	}
 	~Door()
 		= default;
