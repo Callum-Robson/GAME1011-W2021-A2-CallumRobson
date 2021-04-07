@@ -5,8 +5,8 @@
 
 struct ListNode
 {
-	Chest chest;
-	Door door;
+	Chest* chest;
+	Door* door;
 	ListNode* next;
 
 	ListNode(ListNode* next1 = nullptr)
@@ -14,7 +14,7 @@ struct ListNode
 		next = next1;
 	}
 	
-	ListNode(Chest chest1, Door door1, ListNode* next1 = nullptr)
+	ListNode(Chest* chest1, Door* door1, ListNode* next1 = nullptr)
 	{
 		chest = chest1;
 		door = door1;

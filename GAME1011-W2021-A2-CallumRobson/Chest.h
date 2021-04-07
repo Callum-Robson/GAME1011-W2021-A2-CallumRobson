@@ -8,7 +8,7 @@ public:
 	{
 		setObjectType(CHEST);
 	}
-	~Chest();
+	~Chest() override = default;
 
 	void setContents(GameObject* item)
 	{

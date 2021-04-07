@@ -1,0 +1,18 @@
+You awake in a small room.
+There is a chest near the west wall, and a door on the north wall.
+What do you want to do?@
+
+You open the chest and find a sword and a key.@
+
+You turn the handle but the door is locked.@
+
+You unlock the door and proceed to the next room.@
+
+You've already looted this chest.@
+
+You walk into another room. 
+There are three coloured buttons, a red one on the west wall, a blue one on the east wall, and a green one on the floor in the center of the room.
+There is a door on the north wall with no keyhole. 
+Hopefully it's not locked.@
+
+
