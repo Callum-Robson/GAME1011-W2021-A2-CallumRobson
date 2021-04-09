@@ -6,9 +6,9 @@
 class GameObject
 {
 public:
-	GameObject(Position roomPosition = CENTER)
+	GameObject()
 	{
-		m_roomPosition = roomPosition;
+		m_roomPosition = CENTER;
 		m_objectType = NONE;
 	}
 
@@ -26,6 +26,10 @@ public:
 	void setObjectType(ObjectType type)
 	{
 		m_objectType = type;
+	}
+	ObjectType getObjectType() const
+	{
+		return m_objectType;
 	}
 
 private:

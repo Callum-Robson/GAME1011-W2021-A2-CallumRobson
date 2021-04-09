@@ -6,5 +6,7 @@ enum ObjectType
 	CHEST,
 	DOOR,
 	PLAYER,
-	SWORD	
+	SWORD,
+	KEY,
+	BUTTON
 };

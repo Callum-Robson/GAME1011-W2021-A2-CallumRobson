@@ -138,6 +138,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="ButtonColours.h" />
     <ClInclude Include="Chest.h" />
     <ClInclude Include="Door.h" />
     <ClInclude Include="GameObject.h" />
@@ -145,6 +146,7 @@
     <ClInclude Include="ObjectTypes.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="Positions.h" />
+    <ClInclude Include="PuzzleButton.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />

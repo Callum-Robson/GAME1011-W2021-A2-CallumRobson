@@ -15,6 +15,10 @@ public:
 	{
 		m_isLocked = state;
 	}
+	bool getIsLocked()
+	{
+		return m_isLocked;
+	}
 private:
 	bool m_isLocked;
 };

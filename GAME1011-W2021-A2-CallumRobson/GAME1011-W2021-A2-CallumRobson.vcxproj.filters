@@ -36,6 +36,12 @@
     <ClInclude Include="ListNode.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="PuzzleButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonColours.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">

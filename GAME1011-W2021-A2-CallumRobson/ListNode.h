@@ -1,12 +1,16 @@
 #pragma once
 #include "Chest.h"
 #include "Door.h"
+#include "PuzzleButton.h"
 
 
 struct ListNode
 {
-	Chest* chest;
-	Door* door;
+	Chest* chest = new Chest;
+	Door* door = new Door;
+	PuzzleButton* button1 = new PuzzleButton;
+	PuzzleButton* button2 = new PuzzleButton;
+	PuzzleButton* button3 = new PuzzleButton;
 	ListNode* next;
 
 	ListNode(ListNode* next1 = nullptr)

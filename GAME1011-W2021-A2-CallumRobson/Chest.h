@@ -17,11 +17,20 @@ public:
 			m_contents.push_back(item);
 		}
 	}
-	std::vector<GameObject*> getContents() const
+	GameObject* getContents(int position) const
 	{
-		return m_contents;
+			return m_contents[position];
+	}
+	void setHasBeenLooted(bool state)
+	{
+		m_hasBeenLooted = state;
+	}
+	bool getHasBeenLooted()
+	{
+		return m_hasBeenLooted;
 	}
 
 private:
 	std::vector<GameObject*> m_contents;
+	bool m_hasBeenLooted;
 };
