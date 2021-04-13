@@ -7,12 +7,13 @@ public:
 	Chest()
 	{
 		setObjectType(CHEST);
+		m_hasBeenLooted = false;
 	}
 	~Chest() override = default;
 
 	void setContents(GameObject* item)
 	{
-		if (m_contents.size() < 3)
+		if (m_contents.size() < 2)
 		{
 			m_contents.push_back(item);
 		}

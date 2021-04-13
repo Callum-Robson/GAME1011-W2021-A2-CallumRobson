@@ -6,7 +6,7 @@ class Door final : public GameObject
 public:
 	Door()
 	{
-		m_isLocked = false;
+		m_isLocked = true;
 		setObjectType(DOOR);
 	}
 	~Door()

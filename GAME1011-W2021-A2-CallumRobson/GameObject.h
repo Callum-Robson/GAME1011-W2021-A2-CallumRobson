@@ -35,5 +35,4 @@ public:
 private:
 	Position m_roomPosition;
 	ObjectType m_objectType;
-	
 };

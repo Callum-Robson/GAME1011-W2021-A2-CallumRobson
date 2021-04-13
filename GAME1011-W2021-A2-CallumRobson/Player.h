@@ -11,7 +11,7 @@ public:
 
 	void setInventory(GameObject* item)
 	{
-		if (m_inventory.size() < 20)
+		if (m_inventory.size() < 2)
 			m_inventory.push_back(item);
 		setInventorySize();
 	}

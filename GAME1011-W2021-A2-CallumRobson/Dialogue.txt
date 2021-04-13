@@ -7,8 +7,9 @@ You turn the handle but the door is locked.
 Which direction to you want to move?@
 You unlock the door and proceed to the next room.
 You walk into another room. 
-There are three coloured buttons, a red one on the west wall, a blue one on the east wall, and a green one on the floor in the center of the room.
-There is a door on the north wall with no keyhole. 
+There are three coloured buttons, a red one on the west wall, a blue one on the east wall,
+and a green one on the floor in the center of the room.
+There is a door on the north wall but no obvious way to open it.
 Hopefully it's not locked.
 Which direction to you want to move?@
 You've already looted this chest.
@@ -16,3 +17,29 @@ Which direction to you want to move?@
 There's nothing of interest here.
 Which direction to you want to move?@
 You walk through the open door and proceed to the next room.
+You enter a new room. There is an open door on the north wall,
+and a chasm separating the north and south sides of the room.
+You could try to jump over it but it doesn't look like you'll make it.
+On the south side of the chasm near the west wall is a big scary monster.
+Which direction to you want to move?@
+The door is still shut.
+Which direction to you want to move?@
+You push the red button down, it remains depressed.
+Which direction to you want to move?@
+You push the blue button down, it remains depressed.
+Which direction to you want to move?@
+You push the green button down, it remains depressed.
+Which direction to you want to move?@
+This button is still depressed.
+Which direction to you want to move?@
+The buttons all rise, nothing else happens.
+Which direction to you want to move?@
+You hear mechanical noises and the door slowly rises into the wall.
+Which direction to you want to move?@
+You run towards the chasm and jump from the very edge...
+you fall to your death.@
+You kill the monster using the sword you found earlier.
+It falls to the ground, behind it you see a button which you press.
+A bridge appears over the chasm, you walk across and leave the dungeon, happily ever after, goodbye.
+
+

@@ -6,11 +6,11 @@
 
 struct ListNode
 {
-	Chest* chest = new Chest;
+	Chest* chest= new Chest;
 	Door* door = new Door;
-	PuzzleButton* button1 = new PuzzleButton;
-	PuzzleButton* button2 = new PuzzleButton;
-	PuzzleButton* button3 = new PuzzleButton;
+	PuzzleButton* redButton = new PuzzleButton;
+	PuzzleButton* blueButton = new PuzzleButton;
+	PuzzleButton* greenButton = new PuzzleButton;
 	ListNode* next;
 
 	ListNode(ListNode* next1 = nullptr)
@@ -18,10 +18,11 @@ struct ListNode
 		next = next1;
 	}
 	
-	ListNode(Chest* chest1, Door* door1, ListNode* next1 = nullptr)
-	{
-		chest = chest1;
-		door = door1;
-		next = next1;
-	}
+};
+
+
+struct puzzleNode
+{
+	bool actionCompleted;
+	std::string action;
 };
